@@ -5,7 +5,7 @@ import random
 
 class Account:
 
-    def __init__(self, user_length: int = 20, pass_length: int = 20, include_special: bool = True):
+    def __init__(self, user_length: int = 20, pass_length: int = 35, include_special: bool = True):
         '''
             user_length: length of the username 
             pass_length: length of the password 
